@@ -9,7 +9,7 @@ const port = Number(config.express.port);
 app.use(reqLogger);
 
 app.get("/", (_req, res) => {
-  res.status(200).json("hi");
+  res.status(200).json("Hello Chads");
 });
 
 app.listen(port, () => {
