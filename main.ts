@@ -1,6 +1,6 @@
 // @deno-types="npm:@types/express@4"
 import express, { NextFunction, Request, Response } from "npm:express@4.18.2";
-import { config } from "./config.ts";
+import { config } from "./configs/express.ts";
 import { reqLogger } from "./utils/logger.ts";
 
 const app = express();
