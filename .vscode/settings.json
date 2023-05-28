@@ -1,4 +1,7 @@
 {
   "deno.enable": true,
-  "deno.unstable": true
+  "deno.unstable": true,
+  "conventionalCommits.autoCommit": false,
+  "conventionalCommits.promptFooter": false,
+  "conventionalCommits.promptScopes": false
 }
